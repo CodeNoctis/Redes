@@ -1,6 +1,6 @@
 Building configuration...
 
-Current configuration : 3548 bytes
+Current configuration : 3561 bytes
 !
 ! Last configuration change at 23:22:47 UTC Wed Oct 1 2025
 !
@@ -123,8 +123,7 @@ interface Ethernet0/2
  ip address 10.0.5.5 255.255.255.252
 !
 interface Ethernet0/3
- no ip address
- shutdown
+ ip address 10.0.5.50 255.255.255.252
 !
 router ospf 1
  router-id 1.1.1.1
