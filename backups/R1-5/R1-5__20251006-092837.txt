@@ -1,8 +1,6 @@
 Building configuration...
 
-Current configuration : 3561 bytes
-!
-! Last configuration change at 23:22:47 UTC Wed Oct 1 2025
+Current configuration : 3487 bytes
 !
 version 17.16
 service timestamps debug datetime msec
@@ -88,7 +86,7 @@ spanning-tree mode rapid-pvst
 !
 enable secret 9 $9$2NspHCROi9PBlE$4xg.CmNW5G8NSsriBkU.mqKgTcE.zdU1BmdpyxITn36
 !
-username admin privilege 15 secret 9 $9$j9bEz3Ocl8R9YU$fgRe27ANro2iq1cqT.QaXyCK/8s8PRwgHfvB7axlh8o
+username admin privilege 15 secret 9 $9$rnY07YzGceeH0E$zV65xbmIj9GFyuiqptvgVls1kX5KwX2yCMGOiJGeHoQ
 !
 !
 !
@@ -123,7 +121,8 @@ interface Ethernet0/2
  ip address 10.0.5.5 255.255.255.252
 !
 interface Ethernet0/3
- ip address 10.0.5.50 255.255.255.252
+ no ip address
+ shutdown
 !
 router ospf 1
  router-id 1.1.1.1

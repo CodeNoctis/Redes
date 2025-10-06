@@ -1,8 +1,6 @@
 Building configuration...
 
-Current configuration : 3526 bytes
-!
-! Last configuration change at 23:24:00 UTC Wed Oct 1 2025
+Current configuration : 3465 bytes
 !
 version 17.16
 service timestamps debug datetime msec
@@ -88,7 +86,7 @@ spanning-tree mode rapid-pvst
 !
 enable secret 9 $9$TQFOxyAkbakRhE$rIcT1roElIZQCVnjfDfrCLUcUU6lRhSXMn86nUtSwIE
 !
-username admin privilege 15 secret 9 $9$/48ayIF27XFQzU$NQgzSh.T/Zdm2Ir1sJ6Hm9CDSaD9KP.dGGILsYDcm16
+username admin privilege 15 secret 9 $9$LUyRXu0E/620XE$PFS.dzQJ9uj5S3Y/YmqBXjS5lhzQJA6.5eEoRrzmlf.
 !
 !
 !
